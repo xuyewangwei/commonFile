@@ -1,0 +1,8 @@
+shell command
+mklink /d C:\Users\wei\OneDrive\cpp_study D:\cpp_study
+rklink /d C:\Users\wei\OneDrive\cprogramme D:\cprogramme
+mklink /d C:\Users\wei\OneDrive\linux_work D:\linux_work
+mklink /d C:\Users\wei\OneDrive\xmind知识蒸馏 D:\xmind知识蒸馏
+mklink /d C:\Users\wei\OneDrive\myCppCode C:\Users\wei\Desktop\homework\homework
+mklink /d C:\Users\wei\OneDrive\crawler D:\crawler
+mklink /d C:\Users\wei\OneDrive\makefile_intro D:\makefile_intro

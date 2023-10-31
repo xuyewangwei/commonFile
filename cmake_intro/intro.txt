@@ -1,0 +1,24 @@
+def:
+CMake 是一个项目构建工具，并且是跨平台的.
+
+usage:
+CMake支持大写、小写、混合大小写的命令。
+如果在编写CMakeLists.txt文件时使用的工具有对应的命令提示，那么大小写随缘即可
+
+注释:
+CMake 使用 # 进行行注释，可以放在任何位置。
+CMake 使用 #[[ ]] 形式进行块注释。
+
+situation1:
+sourcefile only:
+在上述源文件所在目录下添加一个新文件 CMakeLists.txt
+
+content:
+cmake_minimum_required(VERSION 3.0) # 
+project(CALC) # define [rpro
+add_executable(app add.c div.c main.c mult.c sub.c) #此处可执行文件名字和项目名字没有关系
+#源文件名可以是一个也可以是多个，如有多个可用空格或;间隔
+
+在CMakeLists文件夹下执行：
+cmake CMakeLists.txt文件所在路径
+在对应目录下再执行make命令

@@ -1,0 +1,32 @@
+step 1:
+install git
+
+git command:
+open git bash in target file
+
+1.git init # init repository
+2.git add <fileName> # add file to handle repository
+3.git commit -m 'word you want to say in this commit'
+4.git status # check status of the repository
+5.git log # check log of the repository
+6.git branch a # create a branch called a
+7.git branch # check all the branch
+8.git checkout <branch name> # switch to branch
+9.git checkout -b <branch name> #create and switch to new branch
+10.git branch -b <branch name> # delete one branch
+		-D <branch name> # delete onre branch by force
+11.git tag  < tag > # make a tag for current branch
+12.git checkout <tag> # move to branch who has the tag
+
+connect to GitHub
+
+ssh done
+
+关联远程仓库
+git remote add origin https://github.com/xuyewangwei/study.git
+
+空仓库：
+git push -u origin master
+
+非空：
+git push -u origin master

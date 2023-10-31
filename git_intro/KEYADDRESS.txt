@@ -1,0 +1,3 @@
+ROG:
+Your identification has been saved in /c/Users/wei/.ssh/id_rsa
+Your public key has been saved in /c/Users/wei/.ssh/id_rsa.pub
